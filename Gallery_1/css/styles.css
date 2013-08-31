@@ -1,0 +1,117 @@
+/* Show Grid*/
+
+body {
+	background-image:url(../img/Bike_BG.png);
+	margin: auto;
+	background-clip: border-box;
+}
+
+header {
+	font-family: 'Faster One', cursive;
+	color: #009900;
+	font-size: 8em;
+	text-align: center;
+	background-color: rgba(185,209,202,0.5);
+	margin: 20px 0 0 0;
+	border: hidden;
+	-webkit-border-top-left-radius: 10px;
+	-webkit-border-top-right-radius: 10px;
+	-moz-border-radius-topleft: 10px;
+	-moz-border-radius-topright: 10px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+}
+
+nav {
+	background-color: rgba(185,209,202,0.5);
+	margin: 0 0px 50px 0px;
+	border: hidden;
+	-webkit-border-bottom-right-radius: 10px;
+	-webkit-border-bottom-left-radius: 10px;
+	-moz-border-radius-bottomright: 10px;
+	-moz-border-radius-bottomleft: 10px;
+	border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+}
+
+nav a{
+	padding:15px;
+}
+
+nav a:link {
+	color:#000099;
+}
+
+nav a:visited {
+	color: #FFFFFF;
+}
+
+nav a:hover {
+	background-color: rgba(185,209,202,1);
+}
+
+#main_nav ul {
+	padding:0 20px 20px 20px;
+}
+
+#main_nav li {
+	margin:auto 0px;
+}
+
+#main_nav li:last-child {
+	float:right;
+	text-align:end;
+}
+
+ul#gallery {
+	padding:0;
+}
+
+#gallery li {
+	background-color: rgba(185,209,202,0.5);
+	float:left;
+	list-style:none;
+	padding:5px;
+	margin:0 0 40px 0;
+	width:45%;
+	height:350px;
+	-webkit-border-radius:10px;
+	border-radius:10px;
+}
+
+#gallery li[class="right"] {
+	float:right;
+}
+
+#gallery li[class="right"] img {
+	display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.VR {
+	width:215px;
+	float:left;
+}
+
+.VR figcaption h3{
+	color:white;
+	text-align:center;
+	margin: 10px 0 10px 0;
+	padding:0 2px;
+}
+
+#gallery li>h3 {
+	color:rgba(255,255,255,1);
+	text-align:center;
+}
+
+ul img {
+	-webkit-border-radius:5px;
+	border-radius:5px;
+}
+
+#gallery p {
+	color:rgba(204,204,204,1);
+}
+

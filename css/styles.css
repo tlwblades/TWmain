@@ -1,0 +1,160 @@
+/* Show Grid*/
+
+body {
+	background: black;
+}
+
+/* Header */
+
+header{
+	margin:20px 10px 0px 10px;
+	font-family: 'Cinzel', cursive, serif;
+}
+
+.image-block { width:101.863px; margin:0px 10px; float:left; } 
+.reflection { position:relative; } 
+.reflection img { 
+   -webkit-transform: scaleY(-.5) translate(54px, 75px) skewX(-40deg); 
+       -moz-transform: scaleY(-.5) translate(54px, 75px) skewX(-40deg); 
+        -ms-transform: scaleY(-.5) translate(54px, 75px) skewX(-40deg); 
+         -o-transform: scaleY(-.5) translate(54px, 75px) skewX(-40deg); 
+            transform: scaleY(-.5) translate(54px, 75px) skewX(-40deg); 
+	opacity:0.4; 
+} 
+.overlay-logo { 
+	position:absolute; 
+	top:-5px; 
+	left:20px; 
+	width:170px; 
+	height:65px; 
+    background-image: -moz-linear-gradient( center bottom, rgb(255,255,255) 60%, rgba(255,255,255,0) 75%); 
+    background-image: -webkit-linear-gradient(top left, rgba(0,0,0,0), rgba(0,0,0,0.7));
+	background-image: linear-gradien(top left, rgba(0,0,0,0)0%, rgba(0,0,0,0.9)70%, rgba(0,0,0,1)100%);
+	-webkit-transform: scaleY(.5px) translate(54px, 75px) skewX(-40deg);
+	transform:scaleY(.5px) translate(54px,75px) skewX(-40deg);
+} 
+
+header h2{
+	display:block;
+	width:auto;
+	padding-top:50px;
+	color:white;
+	margin:0 100px;
+}
+
+header h4{
+	font-family: 'Mrs Saint Delafield', cursive;
+	font-size:2.5em;
+	text-align:right;
+	float:right;
+	display:block;
+	padding-top:50px;
+	color:white;
+	margin:0 100px;
+}
+
+header p{
+	float:right;
+	display:block;
+	width:auto;
+	padding-top:50px;
+	color:white;
+	margin:0 100px;
+}
+
+#tracks {
+	width:960px;
+	height:1200px;
+	background: url(../img/Tracks.png) top left no-repeat;
+}
+
+.overlay-tracks { 
+	position:relative; 
+	top:0px; 
+	left:0px; 
+	width:960px; 
+	height:1200px; 
+    background-image: -moz-linear-gradient( center bottom, rgb(255,255,255) 60%, rgba(255,255,255,0) 75%);
+    background-image: -webkit-radial-gradient(top left, rgba(0,0,0,0), rgba(0,0,0,0.7));
+	background-image: radial-gradient(top left,rgba(0,0,0,0), rgba(0,0,0,0.7));
+	-webkit-transform: scaleY(.5px) translate(54px, 75px) skewX(-40deg);
+	transform:scaleY(.5px) translate(54px, 75px) skewX(-40deg);
+} 
+
+#train {
+	position:relative;
+	width:960px;
+	height:1162px;
+	bottom:0px;
+	left:-90px;
+	background:url(../img/Train-3.png) bottom center no-repeat;
+	
+	-webkit-transform:scale(.10,.10);
+	transform:scale(.10,.10);
+	
+}
+
+#train:hover {
+	-webkit-animation-timing-function: cubic-bezier(.29,.77,.73,.24);
+	-webkit-animation:come-at-you 10s 1;
+	animation-timing-function: cubic-bezier(.29,.77,.73,.24);
+	animation:come-at-you 10s 1;
+}
+ 
+
+
+
+/* Nav */
+
+nav li {
+	float:left;
+	display:inline;
+	list-style:none;
+	margin: 0 10px;
+	font-family: 'Cinzel', cursive, serif;	
+}
+
+nav a{
+	/*margin-left:100px;*/
+	padding:0 10px;
+	border-radius:10px;
+	text-decoration:none;
+	text-align:center;
+}
+
+nav a:link, nav a:visited {
+	background: rgba(0,0,0,.25);
+	color: #6699FF;
+	display:block;
+	letter-spacing: 2px;
+	padding: 20px 20px 20px 20px;
+}
+
+
+nav a:hover {
+	background-color: rgba(0,0,128,.7);
+}
+
+nav a:active {
+	color:#333;
+}
+
+#about a:hover {
+	background: url(../img/train-23-32.png) #000 no-repeat left ;
+}
+
+#homepage a:hover {
+	background: url(../img/train-5-32.png) #000 no-repeat left;
+}
+
+#galleries a:hover {
+	background: url(../img/train-22-32.png) #000 no-repeat left ;
+}
+
+@-webkit-keyframes come-at-you {
+	75%, 100% {left:0px; -webkit-transform:scale(1,1);}
+}
+
+@keyframes come-at-you {
+	75%, 100% {left:0px; transform:scale(1,1);}
+}

@@ -1,0 +1,143 @@
+/* Show Grid*/
+
+body {
+	background: black;
+}
+
+/* Header */
+
+header{
+	height:150px;
+	margin:20px 10px 0px 10px;
+	font-family: 'Cinzel', cursive, serif;
+}
+
+.image-block { width:101.863px; margin:0px 10px; float:left; } 
+.reflection { position:relative; } 
+.reflection img { 
+   -webkit-transform: scaleY(-.5) translate(54px, 75px) skewX(-40deg); 
+       /*-moz-transform: scaleY(-1);*/ 
+        /*-ms-transform: scaleY(-1);*/ 
+         /*-o-transform: scaleY(-1);*/ 
+            /*transform: scaleY(-1);*/ 
+    /*filter: flipv;*/ 
+	opacity:0.4; 
+    /*filter: alpha(opacity='20');*/
+} 
+.overlay-logo { 
+	position:absolute; 
+	top:-5px; 
+	left:20px; 
+	width:170px; 
+	height:65px; 
+    /*background-image: -moz-linear-gradient( center bottom, rgb(255,255,255) 60%, rgba(255,255,255,0) 75%); 
+    background-image:   -o-linear-gradient( rgba(255,255,255,0) 25%, rgb(255,255,255) 40%); */
+   /* background-image:     -webkit-gradient( linear, left bottom, left top, color-stop(0.60, rgb(255,255,255)), color-stop(0.75, rgba(255,255,255,0))); */
+   /*background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, from(rgba(0,0,0,0)), to(rgba(0,0,0,.95)));*/
+   background-image: -webkit-linear-gradient(top left, rgba(0,0,0,0), rgba(0,0,0,0.7));
+    /*filter: progid:DXImageTransform.Microsoft.Gradient( gradientType=0, startColor=0, EndColorStr=#ffffff); */
+	-webkit-transform: scaleY(.5px) translate(54px, 75px) skewX(-40deg);
+} 
+
+header h2{
+	display:block;
+	width:auto;
+	padding-top:50px;
+	color:white;
+	margin:0 100px;
+}
+
+#design {
+	font-family: 'Cinzel', cursive, serif;
+	text-align: justify;
+	float: left;
+	display:block;
+	padding-top:150px;
+	color:white;
+}
+
+header p{
+	width:auto;
+	padding-top:50px;
+	color:white;
+	margin:0 100px;
+}
+
+#me {
+	display:block;
+	float: left;	
+	width:480 px;
+	height:483px;
+	background: url(../img/Me2.png) top left no-repeat;
+}
+
+/*.overlay-tracks { 
+	position:relative; 
+	top:0px; 
+	left:0px; 
+	width:960px; 
+	height:1200px; 
+    background-image: -moz-linear-gradient( center bottom, rgb(255,255,255) 60%, rgba(255,255,255,0) 75%);
+    background-image: -webkit-radial-gradient(top left, rgba(0,0,0,0), rgba(0,0,0,0.7));
+	-webkit-transform: scaleY(.5px) translate(54px, 75px) skewX(-40deg);
+}*/
+ 
+
+
+
+/* Nav */
+nav ul {
+	margin:0 0 50px 190px;
+}
+
+nav li {
+	float:left;
+	display:inline;
+	list-style:none;
+	margin: 0 10px;
+	font-family: 'Cinzel', cursive, serif;	
+}
+
+nav a{
+	/*margin-left:100px;*/
+	padding:0 10px;
+	border-radius:10px;
+	text-decoration:none;
+	text-align:center;
+}
+
+nav a:link, nav a:visited {
+	background: rgba(0,0,0,.25);
+	color: #6699FF;
+	display:block;
+	letter-spacing: 2px;
+	padding: 20px 20px 20px 20px;
+}
+
+/*nav a:link {
+	color: #00FFFF;
+}*/
+
+/*nav a:visited {
+	color:#6699FF;
+}*/
+
+nav a:hover {
+	background-color: rgba(0,0,128,.7);
+}
+
+nav a:active {
+	color:#333;
+}
+
+#about a:hover {
+	background: url(../img/train-23-32.png) #000 no-repeat left ;
+}
+
+#homepage a:hover {
+	background: url(../img/train-5-32.png) #000 no-repeat left;
+}
+
+#galleries a:hover {
+	background: url(../img/train-22-32.png) #000 no-repeat left ;
+}
